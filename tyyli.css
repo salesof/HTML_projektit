@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    background-color: #eeeeee;
+}
+
+body > .main {
+    margin: 10px 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #15abb0;
+  }
+  
+  a:hover {
+    color: #2B2B2B;
+  }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  color: #2B2B2B;
+}
+
+nav > a {
+    font-size : 20px;
+  }
+
+body > footer {
+    position: sticky;
+    top: 100vh;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    font-size: 1rem;
+}

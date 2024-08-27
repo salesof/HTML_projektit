@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nettikaupan Rekisteröityminen</title>
+</head>
+<body>
+    <h1>Rekisteröidy Nettikauppaan</h1>
+    <form method="post">
+
+        <label for="nimi">Nimi:</label><br>
+        <input type="text" id="nimi" name="nimi" required><br><br>
+
+        <label for="katuosoite">Katuosoite:</label><br>
+        <input type="text" id="katuosoite" name="katuosoite" required><br><br>
+
+        <label for="postinumero">Postinumero:</label><br>
+        <input type="text" id="postinumero" name="postinumero" required><br><br>
+
+        <label for="postitoimipaikka">Postitoimipaikka:</label><br>
+        <input type="text" id="postitoimipaikka" name="postitoimipaikka" required><br><br>
+
+        <label for="puhelinnumero">Puhelinnumero:</label><br>
+        <input type="text" id="puhelinnumero" name="puhelinnumero" required><br><br>
+
+        <label for="sahkoposti">Sähköpostiosoite:</label><br>
+        <input type="email" id="sahkoposti" name="sahkoposti" required><br><br>
+
+        <label for="salasana">Salasana:</label><br>
+        <input type="password" id="salasana" name="salasana" required><br><br>
+
+        <h2>Mistä osastoista olet kiinnostunut?</h2>
+        <input type="checkbox" id="muoti" name="osasto[]" value="Muoti">
+        <label for="muoti">Muoti</label><br>
+        <input type="checkbox" id="urheilu" name="osasto[]" value="Urheilu">
+        <label for="urheilu">Urheilu</label><br>
+        <input type="checkbox" id="sisustaminen" name="osasto[]" value="Sisustaminen">
+        <label for="sisustaminen">Sisustaminen</label><br>
+        <input type="checkbox" id="pelit" name="osasto[]" value="Pelit">
+        <label for="pelit">Pelit</label><br>
+        <input type="checkbox" id="elokuvat" name="osasto[]" value="Elokuvat">
+        <label for="elokuvat">Elokuvat</label><br><br>
+
+        <h2>Maksutapa</h2>
+        <label for="maksutapa">Valitse maksutapa:</label><br>
+        <select id="maksutapa" name="maksutapa" required>
+            <option value="" disabled selected>Valitse</option>
+            <option value="Sampo">Sampo</option>
+            <option value="Nordea">Nordea</option>
+            <option value="Osuuspankki">Osuuspankki</option>
+            <option value="Aktia">Aktia</option>
+        </select><br><br>
+
+        <h2>Anna palautetta</h2>
+        <textarea id="palaute" name="palaute" rows="4" cols="50"></textarea><br><br>
+
+        <h2>Toimitusehdot</h2>
+        <input type="radio" id="hyvaksy" name="toimitusehdot" value="hyvaksy" required>
+        <label for="hyvaksy">Olen lukenut ja hyväksyn tuotteiden toimitusehdot</label><br>
+        <input type="radio" id="en_hyvaksy" name="toimitusehdot" value="en_hyvaksy" required>
+        <label for="en_hyvaksy">En hyväksy tuotteiden toimitusehtoja</label><br><br>
+
+        <input type="submit" value="Lähetä">
+    </form>
+</body>
+</html>
