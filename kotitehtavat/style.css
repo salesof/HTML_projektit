@@ -42,7 +42,6 @@ h1 {
 }
 
 h2 {
-    border-bottom: 2px solid #444;
     padding-bottom: 5px;
     color: #555;
 }
@@ -97,7 +96,7 @@ fieldset {
 legend {
     font-weight: bold;
     padding: 0 10px;
-    color: #555;
+    color: #333;
     font-size: 1.5em;
 }
 

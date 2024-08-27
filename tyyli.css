@@ -1,34 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto+Slab:wght@100..900&display=swap');
+
 html, body {
     height: 100%;
     margin: 0px;
-    background-color: #eeeeee;
+    background-color: #aedbe2;
+    font-family: "Roboto Slab", serif;
+    color: #333;
 }
 
-body > .main {
-    margin: 10px 40px;
+body > .container {
+    height: 100%;
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+    padding: 10px 40px;
+    margin-top: 80px;
 }
+
+nav {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+    color: #2B2B2B;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: center; /* Keskittää sisällön vaakasuunnassa */
+    align-items: center; /* Keskittää sisällön pystysuunnassa */
+}
+
+nav .menu-icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Keskittää linkit vaakasuunnassa */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav > ul > li > a {
+    font-size : 20px;
+    margin: 0 15px;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Julius Sans One", sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+}  
 
 a {
     text-decoration: none;
     color: #15abb0;
-  }
-  
-  a:hover {
-    color: #2B2B2B;
-  }
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: #fff;
-  color: #2B2B2B;
 }
 
-nav > a {
-    font-size : 20px;
-  }
+a:hover {
+    color: #2B2B2B;
+}
 
 body > footer {
     position: sticky;
@@ -39,4 +87,38 @@ body > footer {
     color: white;
     background-color: rgb(22, 22, 22);
     font-size: 1rem;
+}
+
+/* Responsiivisuus */
+@media (max-width: 768px) {
+    nav .menu-icon {
+        display: block;
+        font-size: 3em;
+        position: absolute;
+        right: 60px;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        z-index: 1000;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    nav > ul > li > a:hover {
+        color: #fff;
+    }
 }
