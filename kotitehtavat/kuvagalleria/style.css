@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto+Slab:wght@100..900&display=swap');
 
 html, body {
-    height: 100%;
     margin: 0px;
     background-color: #aedbe2;
     font-family: "Roboto Slab", serif;
@@ -9,7 +8,6 @@ html, body {
 }
 
 body > .container {
-    height: 100%;
     background-color: #fff;
     width: 70%;
     margin: auto;
@@ -87,13 +85,30 @@ a:hover {
     color: #2B2B2B;
 }
 
-.sailio {
-    width: 300px;
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Välit boksien välillä */
+    margin-bottom: 70px;
 }
 
-body > footer {
-    position: sticky;
-    top: 100vh;
+.sailio {
+    width: calc(25% - 20px); /* Neljä boksia per rivi, vähennetään välit */
+    margin-bottom: 20px; /* Välit rivien välillä */
+}
+
+.sailio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Skaalaa kuva täyttämään koko divin */
+}
+
+.kuvaus {
+    text-align: center;
+}
+
+footer {
     margin: auto;
     text-align: center;
     padding: 5px;
@@ -103,7 +118,7 @@ body > footer {
 }
 
 /* Responsiivisuus */
-@media (max-width: 768px) {
+@media (max-width: 860px) {
     nav .menu-icon {
         display: block;
         font-size: 3em;
@@ -133,5 +148,15 @@ body > footer {
 
     nav > ul > li > a:hover {
         color: #fff;
+    }
+
+    .sailio {
+        width: calc(50% - 20px); /* Kaksi boksia per rivi */
+    }
+}
+
+@media (max-width: 536px) {
+    .sailio {
+        width: 100%; /* Yksi boksi per rivi */
     }
 }

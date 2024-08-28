@@ -1,0 +1,171 @@
+/* Yleiset asetukset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  nav {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+    color: #2B2B2B;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    top: 0;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute; /* Sijoittaa logon absoluuttisesti nav-kontin sisällä */
+    left: 35px;
+}
+
+nav .logo img {
+    height: 60px;
+}
+
+nav .menu-icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav > ul > li > a {
+    font-size : 20px;
+    color: #15abb0;
+    margin: 0 15px;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    color: #2B2B2B;
+}
+  
+  /* Keskitä sailio-divi ja määrittele leveys */
+  #sailio {
+    max-width: 1000px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 200px 650px 200px;
+    gap: 20px;
+    position: relative;
+  }
+  
+  /* Muotoile navigointipalkit */
+  #navi1, #navi2 {
+    background-color: #333;
+    color: rgb(243, 243, 243);
+    padding: 10px;
+  }
+  
+  /* Muotoile linkkien värit ja poistetaan alleviivaukset */
+  #navi1 a, #navi2 a {
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+  }
+  
+  #navi1 a:hover, #navi2 a:hover {
+    color: #15abb0;
+  }
+  
+  /* Muotoile otsikot navigointipalkissa */
+  .linkkiotsikko {
+    text-align: center;
+    margin: 2px;
+    padding: 0;
+    font-family: 'Arial Black', sans-serif;
+    color: #15abb0;
+    border-bottom: solid 1px #15abb0;
+  }
+  
+  /* Muotoile luettelot navigointipalkissa */
+  #navi1 ul, #navi2 ul {
+    list-style-type: square;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  
+  #navi1 li, #navi2 li {
+    padding: 5px;
+    list-style-position: inside;
+  }
+  
+  /* Muotoile sisalto-divi */
+  #sisalto {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Muotoile sisaltodivin teksti */
+  #sisalto p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  footer {
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    font-size: 1rem;
+}
+
+/* Responsiivisuus */
+@media (max-width: 860px) {
+    nav .menu-icon {
+        display: block;
+        font-size: 3em;
+        position: absolute;
+        right: 30px;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        z-index: 1000;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    nav > ul > li > a:hover {
+        color: #fff;
+    }
+}
