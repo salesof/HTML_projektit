@@ -1,0 +1,167 @@
+/* Yleiset tyylit */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigaatiopalkki */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Kontti */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Otsikot */
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+h2 {
+    padding-bottom: 5px;
+    color: #555;
+    font-size: 1.2em;
+}
+
+/* Taulukko */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+/* Luettelo */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Kuva */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+/* Lomake */
+form {
+    margin-top: 30px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #333;
+    font-size: 1.5em;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Responsiivisuus */
+@media (max-width: 600px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+
+    legend {
+        font-size: 1.2em;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+    }
+}

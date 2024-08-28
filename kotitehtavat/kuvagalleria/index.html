@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Kuvagalleria</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="logo.png"></a>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#">Linkki 1</a></li>
+                <li><a href="#">Linkki 2</a></li>
+                <li><a href="#">Linkki 3</a></li>
+                <li><a href="#">Linkki 4</a></li>
+                <li><a href="#">Linkki 5</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1>Kuvagalleria</h1>
+            <h2>Kissoja</h2>
+            <div class="sailio">
+                <img src="img/1.jpg" alt="Kuvan teksti">
+                <div class="kuvaus">Punainen ruusu</div>
+            </div>
+            <div class="sailio">
+                <img src="img/2.jpg" alt="Kuvan teksti">
+                <div class="kuvaus">Punainen ruusu</div>
+            </div>
+            <div class="sailio">
+                <img src="img/3.jpg" alt="Kuvan teksti">
+                <div class="kuvaus">Punainen ruusu</div>
+            </div>
+            <div class="sailio">
+                <img src="img/4.jpg" alt="Kuvan teksti">
+                <div class="kuvaus">Punainen ruusu</div>
+            </div>
+
+            <h2>Lisää kissoja</h2>
+            <div class="sailio">
+                <img src="img/5.jpg" alt="Kuvan teksti">
+                <div class="kuvaus">Punainen ruusu</div>
+            </div>
+            <div class="sailio">
+                <img src="img/6.jpg" alt="Kuvan teksti">
+                <div class="kuvaus">Punainen ruusu</div>
+            </div>
+            <div class="sailio">
+                <img src="img/7.jpg" alt="Kuvan teksti">
+                <div class="kuvaus">Punainen ruusu</div>
+            </div>
+            <div class="sailio">
+                <img src="img/8.jpg" alt="Kuvan teksti">
+                <div class="kuvaus">Punainen ruusu</div>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright © Sofia</p>
+        </footer>
+        <script>
+            function toggleMenu() {
+                const navLinks = document.getElementById('navLinks');
+                navLinks.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>

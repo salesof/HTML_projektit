@@ -87,6 +87,10 @@ a:hover {
     color: #2B2B2B;
 }
 
+.sailio {
+    width: 300px;
+}
+
 body > footer {
     position: sticky;
     top: 100vh;
