@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Puutarhaliike Neilikka</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="#"><img src="logo.png" /></a>
+      </div>
+      <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#">Etusivu</a></li>
+        <li><a href="#">Tuotteet</a></li>
+        <li><a href="#">Myymälät</a></li>
+        <li><a href="#">Tietoa Meistä</a></li>
+        <li><a href="#">Yhteydenotto</a></li>
+      </ul>
+    </nav>
+
+    <div class="banner-wrapper">
+        <h1>Puutarhaliike Neilikka</h1>
+    </div>
+
+    <div class="container">
+      <p>
+        Tervetuloa Puutarhaliike Neilikan kotisivuille! Meiltä löydät sekä sisä-
+        että ulkokasvit ja kaiken tarvitsemasi kasvien hoitoon.
+      </p>
+
+      <h2>Uutisia</h2>
+
+      <div class="news-wrapper">
+        <div class="news-block">
+          <img src="img/1.jpg" />
+          <p class="news-date">2.1.2016</p>
+          <p>
+            Hyvää uutta vuotta! Uuden vuoden kunniaksi myymälöissämme upeita
+            tarjouksia.
+          </p>
+        </div>
+
+        <div class="news-block">
+          <img src="img/2.jpg" />
+          <p class="news-date">14.12.2015</p>
+          <p>
+            Joulukukat edullisesti meiltä. Myymälöissämme myös kattava ja
+            edullinen valikoima joulukuusia.
+          </p>
+        </div>
+
+        <div class="news-block">
+          <img src="img/1.jpg" />
+          <p class="news-date">1.9.2015</p>
+          <p>
+            Nyt on hyvä aika aloittaa puutarhan valmistelu talven lepokautta
+            varten. Meiltä löydät kaikki työkalut ja tarvikkeet.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright © 2024 Puutarhaliike Neilikka</p>
+    </footer>
+    <script>
+      function toggleMenu() {
+        const navLinks = document.getElementById("navLinks");
+        navLinks.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
