@@ -1,0 +1,117 @@
+/* Reset some default browser styling */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* General body styling */
+body {
+  font-family: "Amiri", serif; /* Main font */
+  background-color: #f8f9fa; /* Light background color */
+  color: #333; /* Dark text color for better readability */
+}
+
+/* Centered heading styling */
+.heading {
+  margin: 20px 0;
+  font-family: "Lobster", cursive; /* Heading font */
+  color: #007bff; /* Primary color for headings */
+}
+
+/* Container styling */
+.container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff; /* White background for the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Main section styling */
+.main {
+  padding: 20px;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px; /* Space between form elements */
+}
+
+/* Input field styling */
+.form-control {
+  border-radius: 5px; /* Rounded corners for input fields */
+  border: 1px solid #ccc; /* Light gray border */
+  padding: 10px; /* Padding inside input fields */
+  font-size: 16px; /* Larger font size for readability */
+  height: auto; /* Adjust height based on content */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Input group styling */
+.input-group {
+  margin-bottom: 15px; /* Space between input groups */
+}
+
+/* Select dropdown styling */
+.form-control {
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding and border in the element's width */
+}
+
+/* Prevent text wrapping inside select options */
+.form-control option {
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Button styling */
+.btn {
+  border-radius: 5px; /* Rounded corners for buttons */
+  padding: 10px 20px; /* Padding inside buttons */
+  font-size: 16px; /* Font size for buttons */
+}
+
+/* Primary button styling */
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  border-color: #007bff; /* Border color */
+  color: #ffffff; /* Text color */
+}
+
+/* Reset button styling */
+.btn-primary.reset {
+  background-color: #6c757d; /* Secondary button color for reset */
+  border-color: #6c757d; /* Border color */
+}
+
+/* Text center alignment for buttons */
+.text-center {
+  text-align: center;
+}
+
+/* Styling for final converted amount display */
+#finalAmount {
+  margin-top: 20px;
+}
+
+.finalValue {
+  color: green; /* Color for final value text */
+  font-weight: bold; /* Make text bold */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #f9f9f9;
+    background-color: #1c1c1c;
+    font-size: 1rem;
+    line-height: 0.8;
+  }
+
+  footer p {
+    padding: 5px;
+  }
