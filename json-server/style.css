@@ -2,7 +2,7 @@
 
 html, body {
     margin: 0px;
-    background-color: #aedbe2;
+    background-color: #c8e8fb;
     font-family: "Roboto Slab", serif;
     color: #333;
 }
@@ -79,7 +79,7 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #15abb0;
+    color: #43a1d7;
 }
 
 a:hover {
@@ -93,6 +93,12 @@ body > footer {
     color: white;
     background-color: rgb(22, 22, 22);
     font-size: 1rem;
+}
+
+.post {
+    background-color: #efeeee;
+    padding: 20px;
+    margin: 10px;
 }
 
 /* Responsiivisuus */

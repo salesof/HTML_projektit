@@ -1,0 +1,504 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "content": "HTML is easy",
+      "important": true
+    },
+    {
+      "id": "2",
+      "content": "Browser can execute only JavaScript",
+      "important": false
+    },
+    {
+      "id": "3",
+      "content": "GET and POST are the most important methods of HTTP protocol",
+      "important": true
+    },
+    {
+      "id": "4",
+      "content": "CSS is used for styling web pages",
+      "important": false
+    },
+    {
+      "id": "5",
+      "content": "JavaScript can update and change both HTML and CSS",
+      "important": true
+    },
+    {
+      "id": "6",
+      "content": "A JavaScript library is a collection of pre-written JavaScript",
+      "important": false
+    },
+    {
+      "id": "7",
+      "content": "React is a popular JavaScript library for building user interfaces",
+      "important": true
+    },
+    {
+      "id": "8",
+      "content": "Node.js allows JavaScript to be run on the server side",
+      "important": false
+    },
+    {
+      "id": "9",
+      "content": "API stands for Application Programming Interface",
+      "important": true
+    },
+    {
+      "id": "10",
+      "content": "JSON is a lightweight data-interchange format",
+      "important": true
+    },
+    {
+      "id": "11",
+      "content": "REST APIs are based on the HTTP protocol",
+      "important": false
+    },
+    {
+      "id": "12",
+      "content": "Promises in JavaScript handle asynchronous operations",
+      "important": true
+    },
+    {
+      "id": "13",
+      "content": "AJAX allows web pages to be updated asynchronously",
+      "important": false
+    },
+    {
+      "id": "14",
+      "content": "React components can be stateful or stateless",
+      "important": true
+    },
+    {
+      "id": "15",
+      "content": "Redux is a state management library for JavaScript apps",
+      "important": true
+    },
+    {
+      "id": "16",
+      "content": "HTTP status code 200 means OK",
+      "important": false
+    },
+    {
+      "id": "17",
+      "content": "HTTP status code 404 means Not Found",
+      "important": true
+    },
+    {
+      "id": "18",
+      "content": "HTTPS is the secure version of HTTP",
+      "important": false
+    },
+    {
+      "id": "19",
+      "content": "Cookies are used to store data in a user's browser",
+      "important": true
+    },
+    {
+      "id": "20",
+      "content": "LocalStorage is a web storage object available in browsers",
+      "important": false
+    },
+    {
+      "id": "21",
+      "content": "An array is a data structure that holds multiple values",
+      "important": true
+    },
+    {
+      "id": "22",
+      "content": "Objects in JavaScript are collections of key-value pairs",
+      "important": false
+    },
+    {
+      "id": "23",
+      "content": "A function is a block of code designed to perform a task",
+      "important": true
+    },
+    {
+      "id": "24",
+      "content": "Closures are functions that remember their lexical environment",
+      "important": true
+    },
+    {
+      "id": "25",
+      "content": "A callback function is passed as an argument to another function",
+      "important": false
+    },
+    {
+      "id": "26",
+      "content": "Arrow functions provide a shorter syntax for writing functions",
+      "important": true
+    },
+    {
+      "id": "27",
+      "content": "The DOM stands for Document Object Model",
+      "important": false
+    },
+    {
+      "id": "28",
+      "content": "CSS Grid is used for creating complex layouts",
+      "important": true
+    },
+    {
+      "id": "29",
+      "content": "Flexbox is a CSS layout model for one-dimensional layouts",
+      "important": false
+    },
+    {
+      "id": "30",
+      "content": "Media queries allow responsive design in CSS",
+      "important": true
+    },
+    {
+      "id": "31",
+      "content": "JavaScript ES6 introduced let and const for variable declaration",
+      "important": true
+    },
+    {
+      "id": "32",
+      "content": "Async/await syntax is used to handle asynchronous code",
+      "important": true
+    },
+    {
+      "id": "33",
+      "content": "A module is a reusable piece of code in JavaScript",
+      "important": false
+    },
+    {
+      "id": "34",
+      "content": "Webpack is a module bundler for JavaScript applications",
+      "important": true
+    },
+    {
+      "id": "35",
+      "content": "Babel is a JavaScript compiler that converts ES6+ code into older JavaScript",
+      "important": false
+    },
+    {
+      "id": "36",
+      "content": "A virtual DOM is used in libraries like React for performance",
+      "important": true
+    },
+    {
+      "id": "37",
+      "content": "Single Page Applications load a single HTML page and update dynamically",
+      "important": true
+    },
+    {
+      "id": "38",
+      "content": "WebSockets enable real-time communication between a client and a server",
+      "important": false
+    },
+    {
+      "id": "39",
+      "content": "JSON Web Tokens (JWT) are used for secure data transmission",
+      "important": true
+    },
+    {
+      "id": "40",
+      "content": "CORS stands for Cross-Origin Resource Sharing",
+      "important": false
+    },
+    {
+      "id": "41",
+      "content": "A CDN stands for Content Delivery Network",
+      "important": true
+    },
+    {
+      "id": "42",
+      "content": "Responsive design adapts the layout to different screen sizes",
+      "important": false
+    },
+    {
+      "id": "43",
+      "content": "A web server serves web pages to users",
+      "important": true
+    },
+    {
+      "id": "44",
+      "content": "A database stores and retrieves data",
+      "important": false
+    },
+    {
+      "id": "45",
+      "content": "SQL is a language for querying databases",
+      "important": true
+    },
+    {
+      "id": "46",
+      "content": "NoSQL databases store data in a non-relational format",
+      "important": false
+    },
+    {
+      "id": "47",
+      "content": "MongoDB is a popular NoSQL database",
+      "important": true
+    },
+    {
+      "id": "48",
+      "content": "A RESTful API follows REST principles",
+      "important": true
+    },
+    {
+      "id": "49",
+      "content": "GraphQL is a query language for APIs",
+      "important": false
+    },
+    {
+      "id": "50",
+      "content": "A frontend developer focuses on the client side of web applications",
+      "important": true
+    },
+    {
+      "id": "51",
+      "content": "A backend developer focuses on the server side of web applications",
+      "important": false
+    },
+    {
+      "id": "52",
+      "content": "Full-stack developers work on both the frontend and backend",
+      "important": true
+    },
+    {
+      "id": "53",
+      "content": "DevOps practices combine development and operations",
+      "important": true
+    },
+    {
+      "id": "54",
+      "content": "Continuous Integration and Continuous Deployment (CI/CD) automate code deployment",
+      "important": false
+    },
+    {
+      "id": "55",
+      "content": "A microservices architecture breaks down applications into smaller, independent services",
+      "important": true
+    },
+    {
+      "id": "56",
+      "content": "Containers package applications with their dependencies",
+      "important": false
+    },
+    {
+      "id": "57",
+      "content": "Docker is a popular containerization platform",
+      "important": true
+    },
+    {
+      "id": "58",
+      "content": "Kubernetes is used for container orchestration",
+      "important": true
+    },
+    {
+      "id": "59",
+      "content": "Serverless computing runs code without managing servers",
+      "important": false
+    },
+    {
+      "id": "60",
+      "content": "Cloud computing provides on-demand resources over the internet",
+      "important": true
+    },
+    {
+      "id": "61",
+      "content": "AWS, Azure, and Google Cloud are popular cloud service providers",
+      "important": true
+    },
+    {
+      "id": "62",
+      "content": "A CDN caches content closer to users to improve performance",
+      "important": false
+    },
+    {
+      "id": "63",
+      "content": "Version control systems like Git track changes in code",
+      "important": true
+    },
+    {
+      "id": "64",
+      "content": "GitHub is a platform for hosting and collaborating on Git repositories",
+      "important": true
+    },
+    {
+      "id": "65",
+      "content": "A pull request is a request to merge code changes into a repository",
+      "important": false
+    },
+    {
+      "id": "66",
+      "content": "A branch in Git allows you to work on different versions of code simultaneously",
+      "important": true
+    },
+    {
+      "id": "67",
+      "content": "Git merge integrates changes from different branches",
+      "important": true
+    },
+    {
+      "id": "68",
+      "content": "A rebase in Git is an alternative to merging branches",
+      "important": false
+    },
+    {
+      "id": "69",
+      "content": "Agile is a methodology for iterative software development",
+      "important": true
+    },
+    {
+      "id": "70",
+      "content": "Scrum is an Agile framework for managing work",
+      "important": false
+    },
+    {
+      "id": "71",
+      "content": "Kanban is a visual workflow management method",
+      "important": true
+    },
+    {
+      "id": "72",
+      "content": "TDD stands for Test-Driven Development",
+      "important": true
+    },
+    {
+      "id": "73",
+      "content": "Unit tests validate individual components of code",
+      "important": false
+    },
+    {
+      "id": "74",
+      "content": "Integration tests verify how components work together",
+      "important": true
+    },
+    {
+      "id": "75",
+      "content": "End-to-end tests simulate real user interactions",
+      "important": true
+    },
+    {
+      "id": "76",
+      "content": "Jest is a popular testing framework for JavaScript",
+      "important": false
+    },
+    {
+      "id": "77",
+      "content": "Cypress is a tool for end-to-end testing",
+      "important": true
+    },
+    {
+      "id": "78",
+      "content": "A linting tool analyzes code for potential errors",
+      "important": false
+    },
+    {
+      "id": "79",
+      "content": "ESLint is a linting tool for JavaScript",
+      "important": true
+    },
+    {
+      "id": "80",
+      "content": "Prettier is a code formatter for consistent style",
+      "important": true
+    },
+    {
+      "id": "81",
+      "content": "A CI pipeline automates testing and deployment",
+      "important": false
+    },
+    {
+      "id": "82",
+      "content": "Continuous deployment automatically deploys code after testing",
+      "important": true
+    },
+    {
+      "id": "83",
+      "content": "SaaS stands for Software as a Service",
+      "important": true
+    },
+    {
+      "id": "84",
+      "content": "IaaS stands for Infrastructure as a Service",
+      "important": false
+    },
+    {
+      "id": "85",
+      "content": "PaaS stands for Platform as a Service",
+      "important": true
+    },
+    {
+      "id": "86",
+      "content": "Machine learning involves algorithms that improve with experience",
+      "important": true
+    },
+    {
+      "id": "87",
+      "content": "Artificial intelligence simulates human intelligence in machines",
+      "important": false
+    },
+    {
+      "id": "88",
+      "content": "A neural network is a type of machine learning model",
+      "important": true
+    },
+    {
+      "id": "89",
+      "content": "Deep learning is a subset of machine learning using neural networks",
+      "important": true
+    },
+    {
+      "id": "90",
+      "content": "Python is a popular programming language for machine learning",
+      "important": false
+    },
+    {
+      "id": "91",
+      "content": "TensorFlow is an open-source library for machine learning",
+      "important": true
+    },
+    {
+      "id": "92",
+      "content": "Keras is a high-level neural networks API",
+      "important": true
+    },
+    {
+      "id": "93",
+      "content": "Data science involves extracting insights from data",
+      "important": false
+    },
+    {
+      "id": "94",
+      "content": "Big data refers to large and complex datasets",
+      "important": true
+    },
+    {
+      "id": "95",
+      "content": "SQL queries are used to interact with relational databases",
+      "important": true
+    },
+    {
+      "id": "96",
+      "content": "Data visualization helps communicate data insights",
+      "important": false
+    },
+    {
+      "id": "97",
+      "content": "D3.js is a JavaScript library for data visualization",
+      "important": true
+    },
+    {
+      "id": "98",
+      "content": "Tableau is a powerful tool for data visualization",
+      "important": true
+    },
+    {
+      "id": "99",
+      "content": "A heatmap is a data visualization technique",
+      "important": false
+    },
+    {
+      "id": "100",
+      "content": "R is a programming language for statistical computing",
+      "important": true
+    }
+  ]
+}
