@@ -1,0 +1,74 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "imgUrl": "img/news1.jpg",
+      "date": "24.6.2023",
+      "content": "Hyvää juhannusta! Kesäkuu on kuumimmillaan, ja samalla se on kesäkukkien kukoistuksen aikaa. Korkeat lämpötilat ja runsas auringonpaiste asettavat kuitenkin omat haasteensa kasvien hoidolle. Nyt on tärkeää kiinnittää huomiota riittävään kasteluun ja ravinteiden saantiin, jotta kukat säilyvät kauniina ja elinvoimaisina koko kesän ajan. Puutarhaliike Neilikasta löydät kaikki tarvittavat tuotteet kasvien hoitoon hellejaksoilla, kuten tehokkaat kastelujärjestelmät, kastelulannoitteet ja aurinkosuojat herkimmille kasveille. Tule myymäläämme hakemaan asiantuntevat vinkit ja tarvikkeet, joiden avulla pidät puutarhasi kukoistavana, vaikka helteet jatkuisivatkin pitkään!",
+      "excerpt": "Hyvää juhannusta! Korkeat lämpötilat ja runsas auringonpaiste asettavat nyt haasteita kasvien hoidolle."
+    },
+    {
+      "id": 2,
+      "imgUrl": "img/news2.jpg",
+      "date": "4.8.2023",
+      "content": "Olemme laajentaneet valikoimaamme useilla uusilla, ympäristöystävällisillä puutarhatuotteilla. Tarjolla on nyt muun muassa kompostoituvia viljelyastioita, luonnonmukaisia torjunta-aineita ja kierrätysmateriaaleista valmistettuja puutarhavälineitä. Tule tutustumaan uutuuksiimme myymälässämme ja löydä kestävämpiä vaihtoehtoja puutarhasi hoitoon. Panostamme ympäristöystävällisiin ratkaisuihin, jotta sinäkin voit tehdä vihreämpiä valintoja puutarhassasi.",
+      "excerpt": "Uusia tuotteita! Tule tutustumaan uutuuksiimme myymälöissämme ja löydä kestävämpiä vaihtoehtoja puutarhasi hoitoon."
+    },
+    {
+      "id": 3,
+      "imgUrl": "img/news3.jpg",
+      "date": "1.9.2023",
+      "content": "Nyt on oikea aika aloittaa puutarhan valmistelut talven lepokautta varten! Talven lähestyessä on tärkeää suojata kasvit ja varmistaa, että puutarhasi on valmis kylmiin kuukausiin. Puutarhaliike Neilikasta löydät kaiken tarvittavan puutarhan talvikuntoon saattamiseen. Tarjoamme laajan valikoiman työkaluja, kuten lehtiharavia, talikkoja ja pensasleikkureita, jotka helpottavat syystöitä. Lisäksi löydät suojausmateriaalit, kuten pakkaspeitteet ja talvisuojat, jotka auttavat kasvejasi selviytymään talven yli. Tule tutustumaan valikoimaamme ja varmista, että puutarhasi on hyvin suojattu ja valmis odottamaan kevään heräämistä!",
+      "excerpt": "Nyt on hyvä aika aloittaa puutarhan valmistelu talven lepokautta varten. Meiltä löydät kaikki työkalut ja tarvikkeet."
+    },
+    {
+      "id": 4,
+      "imgUrl": "img/news4.jpg",
+      "date": "12.9.2023",
+      "content": "Puutarhaliike Neilikka järjestää syksyn aikana useita puutarhanhoidon työpajoja, joissa opit muun muassa karsimaan hedelmäpuita, suojaamaan kasveja talveksi ja suunnittelemaan kevään istutuksia. Työpajamme ovat suunnattu sekä aloittelijoille että kokeneille puutarhureille, jotka haluavat syventää tietämystään ja oppia uusia taitoja. Ilmoittaudu mukaan jo tänään ja varmista paikkasi inspiroivassa ja käytännönläheisessä työpajassa!",
+      "excerpt": "Tule mukaan puutarhanhoidon työpajoillemme, joita järjestämme pitkin syksyä! Ilmoittautuminen ensimmäisiin työpajoihin on jo auki."
+    },
+    {
+      "id": 5,
+      "imgUrl": "img/news5.jpg",
+      "date": "14.12.2023",
+      "content": "Joulu lähestyy, ja nyt on aika luoda kotiin juhlan tunnelmaa kauniiden joulukukkien ja -kuusien avulla! Puutarhaliike Neilikasta löydät edullisesti suosituimmat joulukukat, kuten amaryllikset, joulutähdet ja hyasintit, jotka tuovat kotiisi perinteistä joulun tuoksua ja väriä. Lisäksi tarjoamme laajan valikoiman tuoreita ja laadukkaita joulukuusia, jotka sopivat niin pieneen kuin suureenkin kotiin. Kuusemme ovat saatavilla eri kokoisina ja hintaluokissa, joten löydät varmasti sopivan vaihtoehdon. Tule käymään myymälässämme ja hanki kaikki tarvittavat koristeet ja kasvit, joilla luot täydellisen joulutunnelman. Joulun taika alkaa Puutarhaliike Neilikasta!",
+      "excerpt": "Joulukukat edullisesti meiltä. Myymälöissämme myös kattava ja edullinen valikoima joulukuusia."
+    },
+    {
+      "id": 6,
+      "imgUrl": "img/news6.jpg",
+      "date": "2.1.2024",
+      "content": "Hyvää uutta vuotta! Uuden vuoden kunniaksi Puutarhaliike Neilikka tarjoaa upeita alennuksia ja tarjouksia, jotka tekevät uuden kasvukauden aloittamisesta entistäkin inspiroivampaa. Nyt on täydellinen aika hankkia kaikki tarvitsemasi puutarha- ja sisäkasvitarvikkeet edullisesti. Löydät myymälöistämme alennuksia suosituista kasveista, lannoitteista, mullanvaihtotuotteista sekä laadukkaista puutarhatyökaluista. Olipa tavoitteenasi luoda vehreä parveke tai uudistaa kotisi viherkasvit, nyt voit tehdä sen budjettiystävällisesti. Tule tutustumaan tarjouksiimme ja aloita uusi vuosi vihreän inspiraation merkeissä! Tarjoukset ovat voimassa rajoitetun ajan, joten toimi nopeasti!",
+      "excerpt": "Hyvää uutta vuotta! Uuden vuoden kunniaksi myymälöissämme upeita tarjouksia."
+    },
+    {
+      "id": 7,
+      "imgUrl": "img/news7.jpg",
+      "date": "15.2.2024",
+      "content": "Kevään saapuminen on täydellinen aika uudistaa sisäkasvien elinvoima mullanvaihdon avulla! Mullanvaihto antaa kasveillesi uutta energiaa ja varmistaa, että ne saavat tarvitsemansa ravinteet ja kasvualustan. Puutarhaliike Neilikasta löydät laajan valikoiman eri kasveille sopivia multia, kuten kaktusmultaa, orkideamultaa ja kukkamultaa. Asiantunteva henkilökuntamme auttaa sinua valitsemaan juuri oikeanlaisen mullan, joka vastaa kasvisi erityistarpeita. Mullanvaihto kannattaa tehdä vuosittain tai parin vuoden välein, jotta kasvit pysyvät terveinä ja hyvinvoivina. Tule käymään myymälässämme ja anna kasveillesi paras mahdollinen startti kevääseen!",
+      "excerpt": "Kevään lähestyessä on aika pistää kädet multaan ja hoitaa sisäkasvien mullanvaihto. Autamme tarvittaessa valitsemaan oikean mullan kasvillesi."
+    },
+    {
+      "id": 8,
+      "imgUrl": "img/news8.jpg",
+      "date": "1.6.2024",
+      "content": "Onnea kaikille tänään valmistuville! Tähän erityiseen päivään kuuluu onnittelut ja lämpimät muistot, ja mikä olisikaan parempi tapa juhlistaa saavutusta kuin kauniilla kukilla. Puutarhaliike Neilikasta löydät upean valikoiman ruusuja ja kukkakimppuja, jotka on huolella valittu ja sidottu täydentämään juhlapäivän tunnelmaa. Olipa kyseessä yksi ruusu, joka kertoo paljon, tai runsas kukkakimppu, joka säihkyy väriloistossaan, meiltä löydät juuri sopivat kukat valmistuneelle. Tule käymään myymälässämme tai tee tilaus etukäteen, jotta voit yllättää juhlasankarin kukkien kauneudella ja tuoksulla!",
+      "excerpt": "Onnea tänään valmistuville! Muista juhlasankareita kauniilla ruusuilla ja kukkakimpuilla vierailemalla liikkeissämme."
+    },
+    {
+      "id": 9,
+      "imgUrl": "img/news9.jpg",
+      "date": "3.7.2024",
+      "content": "Puutarhakasvien karsiminen on tärkeä osa pihanhoitoa, ja nyt on täydellinen aika aloittaa! Säännöllinen karsiminen ei ainoastaan pidä puutarhasi siistinä, vaan myös edistää kasvien terveyttä ja vahvistaa niiden kasvua. Oikein tehtynä karsiminen auttaa kasveja säilyttämään muotonsa ja estää liiallista kasvua, mikä vähentää tuholaisten ja tautien riskiä. Puutarhaliike Neilikasta löydät laajan valikoiman karsintatyökaluja, kuten oksasakset, oksaleikkurit ja pensasleikkurit, jotka tekevät työstä vaivatonta ja tehokasta. Tule käymään myymälässämme ja hanki laadukkaat välineet, joilla pidät puutarhasi parhaassa mahdollisessa kunnossa ympäri vuoden!",
+      "excerpt": "Puutarhakasvien karsiminen kannattaa aloittaa hyvissä ajoin! Meiltä löydät kaikki tarvittavat työvälineet pitääksesi pihasi siistinä."
+    },
+    {
+      "id": 10,
+      "imgUrl": "img/news10.jpg",
+      "date": "4.9.2024",
+      "content": "Syksy on täydellinen aika istuttaa kukkasipuleita, jotta puutarhasi puhkeaa loistoon keväällä. Puutarhaliike Neilikasta löydät nyt laajan valikoiman tulppaanien, narsissien, krookusten ja muiden kevään kukkien sipuleita edulliseen hintaan. Tule tutustumaan tarjontaamme ja hanki sipulit ajoissa, jotta voit nauttia värikkäästä keväästä! Asiantunteva henkilökuntamme auttaa sinua valitsemaan oikeat sipulit ja antaa vinkkejä niiden istutukseen ja hoitoon.",
+      "excerpt": "Tule hankkimaan kukkasipulit kevättä varten! Meiltä löydät nyt laajan valikoiman tulppaanien, narsissien, krookusten ja muiden kevään kukkien sipuleita edulliseen hintaan."
+    }
+  ]
+}

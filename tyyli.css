@@ -7,7 +7,7 @@ html, body {
     color: #333;
 }
 
-body > .container {
+.container {
     height: 100%;
     background-color: #fff;
     width: 70%;
@@ -32,7 +32,7 @@ nav {
 }
 
 .logo {
-    position: absolute; /* Sijoittaa logon absoluuttisesti nav-kontin sisällä */
+    position: absolute;
     left: 35px;
 }
 
@@ -86,7 +86,7 @@ a:hover {
     color: #2B2B2B;
 }
 
-body > footer {
+footer {
     margin: auto;
     text-align: center;
     padding: 5px;
