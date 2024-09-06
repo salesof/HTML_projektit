@@ -189,9 +189,13 @@ nav ul li {
 }
 
 nav > ul > li > a {
-  font-size: 1.2em;
-  margin: 0 15px;
+  font-size: 1.1em;
+  margin: 0 10px;
   font-weight: 500;
+}
+
+.nav-links li.active a, .dropdown.active .dropbtn a, .dropdown-content a.active {
+  color: #9e9e9e;
 }
 
 /* Dropdown */
@@ -200,7 +204,7 @@ nav > ul > li > a {
 }
 
 .dropdown .dropbtn {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 500;
   border: none;
   outline: none;
